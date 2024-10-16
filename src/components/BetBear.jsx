@@ -53,7 +53,7 @@ const BetBear = ({ handleFlip }) => {
   };
 
   return (
-    <div className="flex justify-center items-center pt-10">
+    <div className="flex justify-center items-center pt-16">
       <div className="bg-[#27262C] shadow-xl h-full rounded-3xl md:mx-0 w-[240px]">
         <div className="bg-[#3A384C] text-white font-bold p-3 flex justify-between rounded-t-3xl">
           <div className="flex items-center gap-1 text-sm">
