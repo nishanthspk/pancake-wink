@@ -339,7 +339,7 @@ const LiveUp = ({ handleFlip }) => {
                 </div>
               </div>
             </div>
-            <div className={`font-bold text-center p-1 ${bg2} w-[140px] rounded-b-xl mx-auto`}>
+            <div className={`font-bold text-center p-1 ${bg2} w-[120px] md:w-[140px] rounded-b-xl mx-auto`}>
               <p className=" text-sm">
                 {downVal}x <span className=" font-medium"> payout</span>
               </p>
