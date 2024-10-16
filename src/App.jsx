@@ -130,7 +130,7 @@ const App = () => {
 
               
             </motion.div>
-            <div className="mt-[350px] flex flex-col justify-center items-center gap-2  absolute right-[120px] w-max">Powered by Winks.fun</div>
+            <div className="mt-[350px] md:mt-12 flex flex-col justify-center items-center gap-2  absolute right-[120px] md:right-[150px] w-max">Powered by Winks.fun</div>
 
           </div>
           
