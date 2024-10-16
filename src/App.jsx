@@ -87,7 +87,9 @@ const App = () => {
           </div>
         </div>
         <div className="flex gap-3">
+        <div className="ml-16 md:ml-0">
           <LiveUp />
+          </div>
           <div className="relative w-[240px] perspective">
             <motion.div
               className="relative w-full h-full"
