@@ -90,9 +90,9 @@ const App = () => {
         <div className="">
           <LiveUp />
           </div>
-          <div className="relative w-[240px] perspective">
+          <div className="relative w-[200px] md:w-[240px] perspective">
             <motion.div
-              className="relative w-full h-full"
+              className="relative w-[200px] md:w-full h-[20px] md:h-full"
               style={{ transformStyle: "preserve-3d" }}
               initial={{ rotateY: 0 }}
               animate={{ rotateY: isFlipped ? 180 : 0 }}
@@ -100,7 +100,7 @@ const App = () => {
             >
               {/* Front Side */}
               <div
-                className="absolute md:w-full md:h-full"
+                className="absolute w-[200px] md:w-full h-[20px] md:h-full"
                 style={{
                   backfaceVisibility: "hidden",
                 }}
@@ -130,7 +130,7 @@ const App = () => {
 
               
             </motion.div>
-            <div className="mt-6 flex flex-col justify-center items-center gap-2  absolute right-[160px] w-max">Powered by Winks.fun</div>
+            <div className="mt-[350px] flex flex-col justify-center items-center gap-2  absolute right-[120px] w-max">Powered by Winks.fun</div>
 
           </div>
           
