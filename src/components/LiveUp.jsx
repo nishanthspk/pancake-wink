@@ -333,7 +333,7 @@ const LiveUp = ({ handleFlip }) => {
                   <p>Locked Price: </p>
                   <p>${lockPrice}</p>
                 </div>
-                <div className=" flex justify-between items-center font-bold text-sm">
+                <div className=" flex justify-between items-center font-bold text-[10px] md:text-sm">
                   <p>Price Pool: </p>
                   <p>{pricepool} BNB</p>
                 </div>
