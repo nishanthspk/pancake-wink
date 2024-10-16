@@ -54,9 +54,9 @@ const BetBear = ({ handleFlip }) => {
 
   return (
     <div className="flex justify-center items-center pt-16">
-      <div className="bg-[#27262C] shadow-xl h-full rounded-3xl md:mx-0 w-[200px] md:w-[220px]">
+      <div className="bg-[#27262C] shadow-xl h-full rounded-3xl md:mx-0 w-[180px] md:w-[220px]">
         <div className="bg-[#3A384C] text-white font-bold p-3 flex justify-between rounded-t-3xl">
-          <div className="flex items-center gap-1 text-sm">
+          <div className="flex items-center gap-1 md:text-sm">
             <motion.button
               whileTap={{ scale: 0.9 }}
               onClick={() => handleFlip(null)}
