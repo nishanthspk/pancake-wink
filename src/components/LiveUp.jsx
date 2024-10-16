@@ -278,13 +278,13 @@ const LiveUp = ({ handleFlip }) => {
             closeTimestamp={closeTimestamp ?? 0}
           />
           <div className="p-4">
-            <div className={`font-bold text-center p-1 ${bg1} w-[140px] rounded-t-xl mx-auto`}>
+            <div className={`font-bold text-center p-1 ${bg1} w-[120px] md:w-[140px] rounded-t-xl mx-auto`}>
               <p className="text-base font-extrabold">UP</p>
               <p className="text-sm">
                 {upval}x <span className=" font-medium"> payout</span>
               </p>
             </div>
-            <div className="w-full mx-auto border-2 border-[#31D0AA] p-4 rounded-xl">
+            <div className=" md:w-full md:mx-auto border-2 border-[#31D0AA] p-2 md:p-4 rounded-xl">
               <div className="flex justify-between font-bold">
                 <p className=" text-[#B0A5C9] text-[10px] lg:text-sm">LAST PRICE</p>
               </div>
