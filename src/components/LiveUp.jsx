@@ -250,7 +250,7 @@ setDownVal(formattedBearMultiplier)
   return (
     <>
    <div className="flex justify-center items-center pt-10 text-white">
-    <div className="bg-[#27262C] shadow-xl h-full rounded-3xl md:mx-0 w-[240px]">
+    <div className="bg-[#27262C] shadow-xl lg:h-full rounded-3xl md:mx-0 w-[180px] md:w-[240px]">
       <div className="bg-tranparent text-white font-bold p-2 px-4 flex justify-between items-center rounded-t-4xl  border-[#A881FC]">
 
      
