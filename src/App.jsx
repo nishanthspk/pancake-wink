@@ -75,7 +75,7 @@ const App = () => {
 
 
     <div className="flex-col justify-center items-center min-h-screen  inter-font">
-      <div className="flex flex-col items-center mx-auto min-h-screen text-white pt-60 md:pt-6">
+      <div className="flex flex-col items-center mx-auto min-h-screen text-white pt-60 md:pt-24">
         <div className="flex justify-center">
           <div className=" space-y-3">
             <img
