@@ -79,15 +79,15 @@ const App = () => {
         <div className="flex justify-center">
           <div className=" space-y-3">
             <img
-              className="h-7 w-auto mx-auto rounded-full"
+              className="h-7 w-auto md:mx-auto rounded-full"
               src={HeaderLogo}
               alt="Header Logo"
             />
             <Wallet />
           </div>
         </div>
-        <div className="flex gap-3">
-        <div className="ml-16 md:ml-0">
+        <div className="flex ">
+        <div className="">
           <LiveUp />
           </div>
           <div className="relative w-[240px] perspective">
@@ -100,7 +100,7 @@ const App = () => {
             >
               {/* Front Side */}
               <div
-                className="absolute w-full h-full"
+                className="absolute md:w-full md:h-full"
                 style={{
                   backfaceVisibility: "hidden",
                 }}
